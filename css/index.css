@@ -2,33 +2,60 @@
     background-color: #1F2937;
 }
 
+#PageContainer {
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+}
+
 .headerLogo {
-    display: inline;
    color: #F9FAF8;
    font-size: 24px;
-   flex-grow: 4;
-   text-align: center;
-   align-items: center;
 }
 
 .headerSecondary {
-    display: inline;
     color: #E5E7EB;
     font-size: 18px;
-    flex-grow: 1;
-    text-align: center;
+}
+
+#navBar > .headerSecondary, #navBar > .headerLogo {
+    justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+#navBar > .headerLogo {
+    flex-grow: 4;
+}
+
+#navBar > .headerSecondary {
+    flex-grow: 1;
 }
 
 .heroMain {
     color: #F9FAF8;
     font-size: 48px;
     text-decoration: extra-bold;
+    width: 30%;
+    height: 45%;
+    justify-content: center;
+}
+
+.headerImage {
+    width: 70%;
+    height: 100%;
+}
+
+.signUp {
+    width: 10%;
+    height: 10%;
 }
 
 #navBar {
     display: flex;
     flex-direction: row;
+    width: 100%;
+    height: 10%;
 }
 
 #headerContainer {
@@ -37,6 +64,18 @@
 }
 
 #heroContainer {
+    width: 100%;
+    height: 90%;
     display: flex;
     flex-flow: column wrap;
+    overflow-y: hidden;
+}
+
+#heroContainer > .headerSecondary {
+    width: 30%;
+    height: 45%;
+}
+
+#heroContainer > p {
+    display: inline;
 }
