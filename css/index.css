@@ -81,3 +81,68 @@
 #heroInfo > p {
     text-align: center;
 }
+
+#infoContainer {
+    width: 100%;
+    height: 22.5%;
+}
+
+.infoHeader {
+    width: 100%;
+    height: 10%;
+    font-size: 36px;
+    text-decoration: extra-bold;
+    color: #1F2937;
+    text-align: center;
+}
+
+#infoImageContainer {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5%;
+}
+
+#infoImageContainer > * {
+    flex: auto;
+    width : 15%;
+    height : 100%;
+}
+
+.infoImage {
+    width: 100%;
+    height: 80%;
+    border-radius: 5%;
+}
+
+.imageDescription {
+    width: 100%;
+    height: 20%;
+    color: #1F2937;
+}
+
+#quoteContainer {
+    background-color: #E5E7EB;
+    width: 100%;
+    height: 22.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#quote {
+    width : 80%;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+#customerName {
+    width: 50%;
+    font-size: 20px;
+    font-style: oblique;
+    color: #1F2937;
+    text-align: right;
+}
