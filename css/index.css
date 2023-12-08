@@ -36,18 +36,16 @@
     color: #F9FAF8;
     font-size: 48px;
     text-decoration: extra-bold;
-    width: 30%;
-    height: 45%;
-    justify-content: center;
 }
 
 .headerImage {
-    width: 70%;
+    width: 50%;
     height: 100%;
+    padding: 10%;
 }
 
 .signUp {
-    width: 10%;
+    width: 50%;
     height: 10%;
 }
 
@@ -61,21 +59,25 @@
 #headerContainer {
     width: 100%;
     height: 22.5%;
+    margin-bottom: 5%;
 }
 
 #heroContainer {
     width: 100%;
     height: 90%;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     overflow-y: hidden;
 }
 
-#heroContainer > .headerSecondary {
+#heroInfo {
     width: 30%;
-    height: 45%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
-#heroContainer > p {
-    display: inline;
+#heroInfo > p {
+    text-align: center;
 }
